@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Save from "./pages/Save";
 import Search from "./pages/Search";
 import Navbar from "./components/Navbar";
-import Jumbotron from "./components/Jumbotron";
+// import Jumbotron from "./components/Jumbotron";
 import './App.css';
 
 const App = () =>
@@ -14,7 +14,6 @@ const App = () =>
     <Route exact path="/search" component={Search} />
     <Route exact path="/save" component={Save} />
   </div>
-<Jumbotron />
 </Router>
 
 export default App;

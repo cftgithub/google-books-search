@@ -1,16 +1,12 @@
 import React from "react";
-// import Jumbotron from "../components/Jumbotron"
+import Jumbotron from "../components/Jumbotron"
 
-const Save = () => <h1>Saved Page</h1>
-
-// class Save extends Component {
-//     render() {
-//         return (
-//             <Jumbotron>
-//                 <h1>What Books Should I Read?</h1>
-//             </Jumbotron>
-//         );
-//     }
-// }
+const Save = () =>
+    <div>
+        <Jumbotron>
+            <h1>(React) Google Books Search</h1>
+            <h2>Save Books of Interest on This Page</h2>
+        </Jumbotron>
+    </div>
 
 export default Save;
